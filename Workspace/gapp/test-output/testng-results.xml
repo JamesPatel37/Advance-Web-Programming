@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3892" started-at="2016-02-11T14:27:47Z" finished-at="2016-02-11T14:27:51Z">
+    <groups>
+      <group name="DepartmentDaoTest">
+        <method signature="DepartmentDaoTest.getDepartments()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="getDepartments" class="springmvc.model.dao.DepartmentDaoTest"/>
+      </group> <!-- DepartmentDaoTest -->
+    </groups>
+    <test name="Default test" duration-ms="3892" started-at="2016-02-11T14:27:47Z" finished-at="2016-02-11T14:27:51Z">
+      <class name="springmvc.model.dao.DepartmentDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="18" started-at="2016-02-11T14:27:47Z" finished-at="2016-02-11T14:27:47Z">
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3410" started-at="2016-02-11T14:27:47Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-02-11T14:27:51Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="107" started-at="2016-02-11T14:27:51Z" finished-at="2016-02-11T14:27:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.DepartmentDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="getDepartments()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="getDepartments" duration-ms="327" started-at="2016-02-11T14:27:51Z" finished-at="2016-02-11T14:27:51Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at springmvc.model.dao.DepartmentDaoTest.getDepartments(DepartmentDaoTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:182)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:194)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- getDepartments -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="9" started-at="2016-02-11T14:27:51Z" finished-at="2016-02-11T14:27:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.DepartmentDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@544fe44c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-02-11T14:27:51Z" finished-at="2016-02-11T14:27:51Z">
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springmvc.model.dao.DepartmentDaoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

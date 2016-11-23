@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4289" started-at="2016-03-08T23:47:23Z" finished-at="2016-03-08T23:47:27Z">
+    <groups>
+      <group name="StudentDaoTest">
+        <method signature="StudentDaoTest.getStudents()[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="getStudents" class="springmvc.model.dao.StudentDaoTest"/>
+      </group> <!-- StudentDaoTest -->
+      <group name="DepartmentDaoTest">
+        <method signature="ApplicationDaoTest.getDepartments()[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="getDepartments" class="springmvc.model.dao.ApplicationDaoTest"/>
+        <method signature="DepartmentDaoTest.getDepartments()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="getDepartments" class="springmvc.model.dao.DepartmentDaoTest"/>
+      </group> <!-- DepartmentDaoTest -->
+    </groups>
+    <test name="Command line test" duration-ms="4289" started-at="2016-03-08T23:47:23Z" finished-at="2016-03-08T23:47:27Z">
+      <class name="springmvc.model.dao.StudentDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2016-03-08T23:47:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.StudentDaoTest.getStudents()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getStudents()[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="getStudents" duration-ms="16" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- getStudents -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.StudentDaoTest.getStudents()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springmvc.model.dao.StudentDaoTest@69a3d1d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springmvc.model.dao.StudentDaoTest -->
+      <class name="springmvc.model.dao.DepartmentDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2016-03-08T23:47:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.DepartmentDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getDepartments()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="getDepartments" duration-ms="1" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- getDepartments -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="8" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.DepartmentDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springmvc.model.dao.DepartmentDaoTest@80503]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springmvc.model.dao.DepartmentDaoTest -->
+      <class name="springmvc.model.dao.ApplicationDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="56" started-at="2016-03-08T23:47:23Z" finished-at="2016-03-08T23:47:23Z">
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3694" started-at="2016-03-08T23:47:23Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="193" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.ApplicationDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getDepartments()[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="getDepartments" duration-ms="265" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- getDepartments -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="9" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.model.dao.ApplicationDaoTest.getDepartments()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springmvc.model.dao.ApplicationDaoTest@4b553d26]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-03-08T23:47:27Z" finished-at="2016-03-08T23:47:27Z">
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springmvc.model.dao.ApplicationDaoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

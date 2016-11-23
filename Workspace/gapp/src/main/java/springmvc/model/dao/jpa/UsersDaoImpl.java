@@ -1,0 +1,48 @@
+ package springmvc.model.dao.jpa;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import springmvc.model.Users;
+import springmvc.model.dao.UsersDao;
+
+@Repository
+public class UsersDaoImpl implements UsersDao{
+
+	@PersistenceContext
+    private EntityManager entityManager;
+	
+	@Override
+	public Users getUsers(long id) {
+        return entityManager.find( Users.class, id );
+	}
+
+	@Override
+	public List<Users> getUsers() {
+		  return entityManager.createQuery( "from Users order by id", Users.class )
+		            .getResultList();
+	}
+
+	@Override
+	@Transactional
+	public Users saveUsers(Users users) {
+		return entityManager.merge( users );
+	}
+
+	@Override
+	public Users getUserByEmail(String email) {
+        String query = "from Users where lower(Email) = :email";
+
+        List<Users> users = entityManager.createQuery( query, Users.class )
+            .setParameter( "email", email.toLowerCase() )
+            .getResultList();
+        return users.size() == 0 ? null : users.get( 0 );
+	}
+
+	
+}
